@@ -6,7 +6,7 @@ const outfit = Outfit({ subsets: ['latin'], variable: '--font-sans' });
 
 export const metadata: Metadata = {
   title: 'Handoko Rentcar - Solusi Kendaraan Anda',
-  description: 'Sewa mobil dan motor berkualitas dengan harga terjangkau di Handoko Rentcar.',
+  description: 'Sewa mobil berkualitas dengan harga terjangkau di Handoko Rentcar.',
 };
 
 export default function RootLayout({
