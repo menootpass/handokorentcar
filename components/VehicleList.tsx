@@ -25,7 +25,7 @@ const vehicles = [
     id: 7,
     name: 'Mobilio',
     price: 'Rp 650.000',
-    lepasKunci: 'Rp 900.000',
+    lepasKunci: 'Rp 300.000',
     image: '/mobilio.png',
     passengers: '7 Kursi',
     transmission: 'Auto/Manual'
@@ -34,7 +34,7 @@ const vehicles = [
     id: 6,
     name: 'Innova Reborn',
     price: 'Rp 900.000',
-    lepasKunci: 'Rp 350.000',
+    lepasKunci: 'Rp 350.000 / Rp. 400.000',
     image: '/innova-reborn.png',
     passengers: '7 Kursi',
     transmission: 'Auto/Manual'
@@ -105,26 +105,26 @@ export default function VehicleList() {
           {vehicles.map((car) => (
             <div key={car.id} className={styles.card}>
               <div className={styles.imgWrapper}>
-                <Image 
-                  src={car.image} 
-                  alt={car.name} 
-                  fill 
+                <Image
+                  src={car.image}
+                  alt={car.name}
+                  fill
                   className={styles.img}
                 />
               </div>
               <div className={styles.content}>
                 <h3 className={styles.title}>{car.name}</h3>
-                
+
                 <div className={styles.priceContainer}>
-                   <div className={styles.price}>{car.price} <span>/ hari (All in)</span></div>
-                   {car.lepasKunci && (
-                     <div className={styles.priceLepasKunci}>
-                       <FaKey size={14}/> Lepas Kunci: {car.lepasKunci} <span>/ hari</span>
-                     </div>
-                   )}
-                   <div className={styles.timeInfo}>
-                     <FaRegClock size={12}/> Berlaku dari jam 00:00 hingga 23:59
-                   </div>
+                  <div className={styles.price}>{car.price} <span>/ hari (All in)</span></div>
+                  {car.lepasKunci && (
+                    <div className={styles.priceLepasKunci}>
+                      <FaKey size={14} /> Lepas Kunci: {car.lepasKunci} <span>/ hari</span>
+                    </div>
+                  )}
+                  <div className={styles.timeInfo}>
+                    <FaRegClock size={12} /> Berlaku dari jam 00:00 hingga 23:59
+                  </div>
                 </div>
 
                 <div className={styles.details}>
@@ -137,10 +137,10 @@ export default function VehicleList() {
                 </div>
 
                 <div className={styles.footer}>
-                  <a 
-                    href={`https://wa.me/6285743422700?text=${whatsappMsg(car.name)}`} 
-                    target="_blank" 
-                    rel="noopener noreferrer" 
+                  <a
+                    href={`https://wa.me/6285743422700?text=${whatsappMsg(car.name)}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="btn btn-primary"
                   >
                     <FaWhatsapp size={18} /> Booking via WA
@@ -150,18 +150,18 @@ export default function VehicleList() {
             </div>
           ))}
         </div>
-        
+
         <div className={styles.customBooking}>
-           <h3>Butuh Layanan Berbeda?</h3>
-           <p>Kami menyadari setiap perjalanan memiliki kebutuhan yang unik. Jika Anda membutuhkan waktu sewa spesifik, rute custom, keperluan grup khusus, atau lainnya, jangan ragu hubungi kami!</p>
-           <a 
-              href={`https://wa.me/6285743422700?text=${customMsg}`} 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className={`btn btn-outline ${styles.customBtn}`}
-            >
-              <FaWhatsapp size={18} /> Booking Custom
-            </a>
+          <h3>Butuh Layanan Berbeda?</h3>
+          <p>Kami menyadari setiap perjalanan memiliki kebutuhan yang unik. Jika Anda membutuhkan waktu sewa spesifik, rute custom, keperluan grup khusus, atau lainnya, jangan ragu hubungi kami!</p>
+          <a
+            href={`https://wa.me/6285743422700?text=${customMsg}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`btn btn-outline ${styles.customBtn}`}
+          >
+            <FaWhatsapp size={18} /> Booking Custom
+          </a>
         </div>
       </div>
     </section>
