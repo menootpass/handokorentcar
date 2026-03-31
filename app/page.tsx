@@ -4,6 +4,7 @@ import Reasons from '../components/Reasons';
 import VehicleList from '../components/VehicleList';
 import ContactOwner from '../components/ContactOwner';
 import LocationMap from '../components/LocationMap';
+import Testimonials from '../components/Testimonials';
 import Footer from '../components/Footer';
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
         <VehicleList />
         <ContactOwner />
         <LocationMap />
+        <Testimonials />
       </main>
       <Footer />
     </>
