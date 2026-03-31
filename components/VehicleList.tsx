@@ -25,6 +25,7 @@ const vehicles = [
     id: 7,
     name: 'Mobilio',
     price: 'Rp 650.000',
+    lepasKunci: 'Rp 900.000',
     image: '/mobilio.png',
     passengers: '7 Kursi',
     transmission: 'Auto/Manual'
@@ -33,6 +34,7 @@ const vehicles = [
     id: 6,
     name: 'Innova Reborn',
     price: 'Rp 900.000',
+    lepasKunci: 'Rp 350.000',
     image: '/innova-reborn.png',
     passengers: '7 Kursi',
     transmission: 'Auto/Manual'
@@ -114,7 +116,7 @@ export default function VehicleList() {
                 <h3 className={styles.title}>{car.name}</h3>
                 
                 <div className={styles.priceContainer}>
-                   <div className={styles.price}>{car.price} <span>/ hari (dengan Driver)</span></div>
+                   <div className={styles.price}>{car.price} <span>/ hari (All in)</span></div>
                    {car.lepasKunci && (
                      <div className={styles.priceLepasKunci}>
                        <FaKey size={14}/> Lepas Kunci: {car.lepasKunci} <span>/ hari</span>
