@@ -26,9 +26,9 @@ export default function Navbar() {
     <nav className={styles.navbar}>
       <div className={`container ${styles.container}`}>
         <Link href="/" className={styles.logo} onClick={closeMenu}>
-          Handoko<span>Rentcar</span>
+          <img src="/image/logo.png" alt="Handoko Rentcar Logo" style={{ height: '50px', width: 'auto', display: 'block' }} />
         </Link>
-        
+
         <button className={styles.burger} onClick={toggleMenu} aria-label="Toggle Navigation">
           {isOpen ? <FaTimes /> : <FaBars />}
         </button>

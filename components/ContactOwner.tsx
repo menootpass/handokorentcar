@@ -21,7 +21,7 @@ export default function ContactOwner() {
             <div className={styles.ownerCard}>
               <div className={styles.ownerInfo}>
                 <div className={styles.photoWrapper}>
-                  <Image src="/owner_photo.png" alt="Dwi Handoko" fill className={styles.photo} />
+                  <Image src="/image/profile.png" alt="Dwi Handoko" fill className={styles.photo} />
                 </div>
                 <div className={styles.details}>
                   <h4>Dwi Handoko</h4>

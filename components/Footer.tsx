@@ -8,7 +8,9 @@ export default function Footer() {
         <div className={styles.grid}>
           {/* Brand & Desc */}
           <div>
-            <a href="#" className={styles.logo}>Handoko<span>Rentcar</span></a>
+            <a href="#" className={styles.logo}>
+              <img src="/image/logo.png" alt="Handoko Rentcar Footer Logo" style={{ height: '40px', width: 'auto', display: 'block', marginBottom: '16px' }} />
+            </a>
             <p className={styles.desc}>
               Melayani dengan sepenuh hati, memberikan perjalanan yang aman, nyaman, dan berkesan. Kami adalah solusi transportasi kendaraan terbaik Anda.
             </p>
@@ -47,7 +49,7 @@ export default function Footer() {
                 <span style={{ fontWeight: 600, color: '#fff' }}>+62 857-4342-2700</span>
               </div>
             </div>
-            
+
             <div className={styles.contactItem}>
               <div className={styles.contactIcon}>
                 <FaInstagram />
@@ -61,7 +63,7 @@ export default function Footer() {
         </div>
 
         <div className={styles.bottom}>
-          <p>&copy; {new Date().getFullYear()} Handoko Rentcar. All rights reserved. Created with <span style={{color:'var(--primary)'}}>❤</span></p>
+          <p>&copy; {new Date().getFullYear()} Handoko Rentcar. All rights reserved. Created with <span style={{ color: 'var(--primary)' }}>❤</span></p>
         </div>
       </div>
     </footer>
