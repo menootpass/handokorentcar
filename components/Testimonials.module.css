@@ -39,9 +39,11 @@
 .scrollWrapper::-webkit-scrollbar {
   height: 8px;
 }
+
 .scrollWrapper::-webkit-scrollbar-track {
   background: transparent;
 }
+
 .scrollWrapper::-webkit-scrollbar-thumb {
   background-color: rgba(22, 168, 110, 0.5);
   border-radius: 10px;
@@ -75,9 +77,26 @@
 }
 
 @media (max-width: 768px) {
-  .title { font-size: 2rem; }
-  .imgCard { width: 300px; height: 400px; }
-  .scrollTrack { padding: 0 20px; gap: 16px; scroll-snap-type: x mandatory; }
-  .imgCard { scroll-snap-align: center; }
-  .section { padding: 60px 0; }
+  .title {
+    font-size: 2rem;
+  }
+
+  .imgCard {
+    width: 300px;
+    height: 400px;
+  }
+
+  .scrollTrack {
+    padding: 0 20px;
+    gap: 16px;
+    scroll-snap-type: x mandatory;
+  }
+
+  .imgCard {
+    scroll-snap-align: center;
+  }
+
+  .section {
+    padding: 60px 0;
+  }
 }

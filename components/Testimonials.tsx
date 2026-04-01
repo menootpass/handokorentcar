@@ -2,9 +2,23 @@ import Image from 'next/image';
 import styles from './Testimonials.module.css';
 
 const testimonials = [
-  { id: 1, image: '/image/testimoni/customer-documentation.jpeg' },
-  { id: 2, image: '/image/testimoni/customer-documentation-1.jpeg' },
+  { id: 1, image: '/image/testimoni/testimonial-destination.jpeg' },
+  { id: 2, image: '/image/testimoni/tourist-testimonial.jpeg' },
   { id: 3, image: '/image/testimoni/tour-testimonial.jpeg' },
+  { id: 4, image: '/image/testimoni/customers-documentation-2.jpeg' },
+  { id: 5, image: '/image/testimoni/customer-documentation-3.jpeg' },
+  { id: 6, image: '/image/testimoni/documentation-with-client.jpeg' },
+  { id: 7, image: '/image/testimoni/beach-destination-testimonial.jpeg' },
+  { id: 8, image: '/image/testimoni/beach-tour-testimonial.jpeg' },
+  { id: 9, image: '/image/testimoni/city-tour-testimonial.jpeg' },
+  { id: 10, image: '/image/testimoni/classic-riding-testimonial.jpeg' },
+  { id: 11, image: '/image/testimoni/europe-clients-testimonial.jpeg' },
+  { id: 12, image: '/image/testimoni/hiace-testimonial.GIF' },
+  { id: 13, image: '/image/testimoni/nature-destination-testimonial.jpeg' },
+  { id: 14, image: '/image/testimoni/tample-at-yogyakarta-testimonial.jpeg' },
+  { id: 15, image: '/image/testimoni/tample-testimonial.jpeg' },
+  { id: 16, image: '/image/testimoni/touring-testimonial.jpeg' },
+  { id: 17, image: '/image/testimoni/yogyakarta-tour-testimonial.jpeg' },
 ];
 
 export default function Testimonials({ dict }: { dict: any }) {
