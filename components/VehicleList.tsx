@@ -8,7 +8,7 @@ const vehicles = [
     name: 'Honda Brio',
     price: 'Rp 650.000',
     lepasKunci: 'Rp 350.000',
-    image: '/honda_brio.png',
+    image: '/image/cars/honda_brio.jpeg',
     passengers: '4 Kursi',
     transmission: 'Auto/Manual'
   },
@@ -17,7 +17,7 @@ const vehicles = [
     name: 'Avanza G Series',
     price: 'Rp 700.000',
     lepasKunci: 'Rp 350.000',
-    image: '/avanza_g.png',
+    image: '/image/cars/avanza-black.jpeg',
     passengers: '7 Kursi',
     transmission: 'Auto/Manual'
   },
@@ -26,7 +26,7 @@ const vehicles = [
     name: 'Mobilio',
     price: 'Rp 650.000',
     lepasKunci: 'Rp 300.000',
-    image: '/mobilio.png',
+    image: '/image/cars/mobilio.png',
     passengers: '7 Kursi',
     transmission: 'Auto/Manual'
   },
@@ -35,7 +35,7 @@ const vehicles = [
     name: 'Innova Reborn',
     price: 'Rp 900.000',
     lepasKunci: 'Rp 350.000 / Rp. 400.000',
-    image: '/innova-reborn.png',
+    image: '/image/cars/innova-reborn.png',
     passengers: '7 Kursi',
     transmission: 'Auto/Manual'
   },
@@ -43,7 +43,7 @@ const vehicles = [
     id: 5,
     name: 'Elf Long',
     price: 'Rp 1.200.000',
-    image: '/elf-long.png',
+    image: '/image/cars/elf-long.png',
     passengers: '15-19 Kursi',
     transmission: 'Manual'
   },
@@ -51,7 +51,7 @@ const vehicles = [
     id: 3,
     name: 'Toyota HIACE',
     price: 'Rp 1.200.000',
-    image: '/toyota_hiace.png',
+    image: '/image/cars/toyota_hiace.png',
     passengers: '15 Kursi',
     transmission: 'Manual'
   },
@@ -59,7 +59,7 @@ const vehicles = [
     id: 9,
     name: 'Fortuner',
     price: 'Rp 1.400.000',
-    image: '/fortuner.png',
+    image: '/image/cars/fortuner.png',
     passengers: '7 Kursi',
     transmission: 'Auto'
   },
@@ -67,7 +67,7 @@ const vehicles = [
     id: 8,
     name: 'Pajero',
     price: 'Rp 1.500.000',
-    image: '/pajero.png',
+    image: '/image/cars/pajero.png',
     passengers: '7 Kursi',
     transmission: 'Auto'
   },
@@ -75,7 +75,7 @@ const vehicles = [
     id: 4,
     name: 'Bus Medium & Big Bus',
     price: 'Rp 1.800.000',
-    image: '/image/all-cars-variants.png',
+    image: '/image/cars/all-cars-variants.png',
     passengers: '30-50 Kursi',
     transmission: 'Manual'
   },
@@ -83,7 +83,7 @@ const vehicles = [
     id: 10,
     name: 'Alphard',
     price: 'Rp 3.300.000',
-    image: '/image/alphard.png',
+    image: '/image/cars/alphard.png',
     passengers: '7 Kursi',
     transmission: 'Auto'
   }

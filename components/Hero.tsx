@@ -5,9 +5,9 @@ import styles from './Hero.module.css';
 export default function Hero() {
   return (
     <section id="home" className={styles.hero}>
-      <Image 
-        src="/hero_bg.png" 
-        alt="Hero Background" 
+      <Image
+        src="/hero_bg.png"
+        alt="Hero Background"
         fill
         className={styles.bgImage}
         priority
@@ -15,7 +15,7 @@ export default function Hero() {
       <div className="container">
         <div className={styles.content}>
           <h1 className={`${styles.title} animate-fade-in-up`}>
-            Kebebasan Menjelajahi Kota dengan <span>Mobil Terbaik</span>
+            Handoko Rentcar <span> & Tour Guide</span>
           </h1>
           <p className={`${styles.description} animate-fade-in-up`} style={{ animationDelay: '0.2s' }}>
             Kami menyediakan pilihan mobil dan armada berkualitas dengan harga terjangkau, memberikan Anda pengalaman perjalanan yang nyaman, aman, dan memukau bersama Handoko Rentcar.
