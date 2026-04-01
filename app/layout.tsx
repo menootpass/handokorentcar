@@ -6,7 +6,7 @@ const outfit = Outfit({ subsets: ['latin'], variable: '--font-sans' });
 
 export const metadata: Metadata = {
   title: 'Sewa Mobil Jogja Terbaik dan Terpercaya - Handoko Rentcar & Tour Guide',
-  description: 'Sewa mobil jogja berkualitas lepas kunci atau dengan driver dengan harga terjangkau di Handoko Rentcar & Tour Guide. Harga murah, armada bersih, layani wisata keluarga hingga keperluan bisnis (Avanza, Hiace, Brio).',
+  description: 'Sewa mobil Jogja lepas kunci atau dengan driver di Handoko Rentcar. Harga murah, lengkap, unit bersih & terawat. Siap untuk wisata & bisnis. Booking sekarang!',
   keywords: ['sewa mobil jogja', 'rental mobil jogja', 'sewa mobil jogja murah', 'sewa mobil jogja lepas kunci', 'sewa mobil jogja dengan driver', 'mobil jogja harian', 'pariwisata jogja', 'sewa mobil jogja bandara', 'rental mobil sleman', 'handoko rentcar'],
   alternates: {
     canonical: 'https://handokorentcar.com',
