@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section id="home" className={styles.hero}>
       <Image
-        src="/hero_bg.png"
+        src="/image/hero_background.png"
         alt="Hero Background"
         fill
         className={styles.bgImage}
