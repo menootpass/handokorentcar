@@ -1,0 +1,87 @@
+{
+  "navbar": {
+    "home": "Home",
+    "reasons": "Why Us",
+    "vehicles": "Fleets",
+    "about": "About Us",
+    "article": "Articles",
+    "contact": "Contact Us"
+  },
+  "hero": {
+    "title1": "Handoko Rentcar",
+    "title2": "& Tour Guide",
+    "desc": "We provide a wide selection of quality cars and fleets at affordable prices, giving you a comfortable, safe, and memorable travel experience.",
+    "btnRent": "View Fleets",
+    "btnConsult": "Book via WhatsApp",
+    "stat1": "Quality Vehicles",
+    "stat2": "Satisfied Customers",
+    "stat3": "Support Service"
+  },
+  "reasons": {
+    "title": "Why Choose Us?",
+    "qualityTitle": "Best Quality",
+    "qualityDesc": "We understand the value of your money. Therefore, we offer highly competitive and transparent pricing.",
+    "satisfactionTitle": "Customer Satisfaction",
+    "satisfactionDesc": "We provide various vehicle options fully maintained to meet all your travel needs smoothly."
+  },
+  "vehicles": {
+    "title": "Choose Our Fleet",
+    "desc": "Various car types ranging from city cars to Hiace and minibus with self-drive or all-in packages.",
+    "perDay": "day (All in)",
+    "lepasKunci": "Self Drive",
+    "validUntil": "Valid from 00:00 to 23:59",
+    "seat": "Seats",
+    "transmission": "Transmission",
+    "btnBooking": "Booking via WA",
+    "customTitle": "Need a Different Service?",
+    "customDesc": "We realize every trip has unique needs. If you require specific rental hours, custom routes, special group needs, or anything else, don't hesitate to contact us!",
+    "btnCustom": "Custom Booking",
+    "whatsappMsg1": "Hello Handoko, I want to book a car rental for unit",
+    "whatsappMsgCustom": "Hello Handoko, I want to rent a car with custom specifications. Can I get the details and quotation?"
+  },
+  "contact": {
+    "title1": "Ready to",
+    "title2": "Serve You Anytime",
+    "desc1": "Whenever you need a vehicle for a business trip, family vacation, or other special needs, Handoko Rentcar is ready to provide a reliable and efficient car rental solution.",
+    "desc2": "Trust your journey to us, and we will ensure an unforgettable car rental experience. Contact us today for more information.",
+    "ownerRole": "Owner & Driver",
+    "ownerDesc": "Committed to providing the best transportation service for your journey.",
+    "btnContact": "Contact Me Now"
+  },
+  "map": {
+    "title": "Our Location",
+    "address": "Babadan St, RT.01/RW.17, Bangunmulyo, Girikerto, Turi, Sleman, Special Region of Yogyakarta 55551",
+    "btnRoute": "Google Maps Directions"
+  },
+  "testimonials": {
+    "title1": "Special Journey",
+    "title2": "Documentation",
+    "desc": "Various documentation and testimonials from customers who have proven the quality of our service."
+  },
+  "blog": {
+    "subtitle": "Activities & Tips",
+    "title": "Daily Activities & Tips from Handoko Rentcar",
+    "viewAll": "View All Articles",
+    "readMore": "READ MORE »"
+  },
+  "footer": {
+    "desc": "Trusted Yogyakarta car rental with professional services and top-quality fleet.",
+    "servicesTitle": "Quick Links",
+    "service1": "Home",
+    "service2": "Our Fleet",
+    "service3": "About Us",
+    "contactTitle": "Contact Us",
+    "copyright": "Handoko Rentcar. All Rights Reserved. Created with ❤"
+  },
+  "articlePage": {
+    "heroTitle1": "Guides &",
+    "heroTitle2": "Jogja Travel Tips",
+    "heroDesc": "Explore our latest articles to help maximize your vacation time in Yogyakarta.",
+    "btnRead": "Read More",
+    "notFound": "Article Not Found",
+    "ctaTitle": "Ready to Explore the Magic of Jogja?",
+    "ctaDesc": "Get the latest fleets and special promotional rates by contacting Handoko Rentcar's transportation consultants now.",
+    "btnConsult": "Consult Car Rental Now",
+    "waMsg": "Hello Handoko, I am interested in the information on the article"
+  }
+}

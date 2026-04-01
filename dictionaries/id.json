@@ -1,0 +1,87 @@
+{
+  "navbar": {
+    "home": "Home",
+    "reasons": "Keunggulan",
+    "vehicles": "Armada",
+    "about": "Tentang Kami",
+    "article": "Artikel",
+    "contact": "Hubungi Kami"
+  },
+  "hero": {
+    "title1": "Handoko Rentcar",
+    "title2": "& Tour Guide",
+    "desc": "Kami menyediakan pilihan mobil dan armada berkualitas dengan harga terjangkau, memberikan Anda pengalaman perjalanan yang nyaman, aman, dan memukau bersama Handoko Rentcar.",
+    "btnRent": "Lihat Kendaraan",
+    "btnConsult": "Booking Sekarang",
+    "stat1": "Kendaraan Pilihan",
+    "stat2": "Pelanggan Puas",
+    "stat3": "Layanan Dukungan"
+  },
+  "reasons": {
+    "title": "Mengapa Memilih Kami?",
+    "qualityTitle": "Kualitas Terbaik",
+    "qualityDesc": "Kami memahami pentingnya nilai uang Anda. Oleh karena itu, kami menawarkan harga yang kompetitif dan transparan.",
+    "satisfactionTitle": "Kepuasan Pelanggan",
+    "satisfactionDesc": "Kami menyediakan berbagai pilihan kendaraan untuk memenuhi kebutuhan perjalanan Anda."
+  },
+  "vehicles": {
+    "title": "Pilih Armada Kami",
+    "desc": "Berbagai jenis mobil mulai dari city car hingga hiace dan minibus dengan tarif lepas kunci atau paket all-in termurah di Jogja.",
+    "perDay": "hari (All in)",
+    "lepasKunci": "Lepas Kunci",
+    "validUntil": "Berlaku dari jam 00:00 hingga 23:59",
+    "seat": "Kursi",
+    "transmission": "Transmisi",
+    "btnBooking": "Booking via WA",
+    "customTitle": "Butuh Layanan Berbeda?",
+    "customDesc": "Kami menyadari setiap perjalanan memiliki kebutuhan yang unik. Jika Anda membutuhkan waktu sewa spesifik, rute custom, keperluan grup khusus, atau lainnya, jangan ragu hubungi kami!",
+    "btnCustom": "Booking Custom",
+    "whatsappMsg1": "Halo Mas Handoko, saya ingin pesan sewa mobil unit",
+    "whatsappMsgCustom": "Halo Mas Handoko, saya ingin menyewa mobil secara custom. Boleh minta detail dan penawarannya?"
+  },
+  "contact": {
+    "title1": "Siap Melayani",
+    "title2": "Kapan Pun",
+    "desc1": "Kapan pun Anda membutuhkan kendaraan untuk perjalanan bisnis, liburan keluarga, atau keperluan khusus lainnya, Handoko Rentcar siap memberikan solusi rental mobil yang dapat diandalkan dan efisien.",
+    "desc2": "Percayakan perjalanan Anda kepada kami, dan kami akan memastikan pengalaman rental mobil yang tak terlupakan. Hubungi kami hari ini untuk informasi lebih lanjut.",
+    "ownerRole": "Pemilik & Driver",
+    "ownerDesc": "Berkomitmen memberi pelayanan transportasi terbaik untuk perjalanan Anda.",
+    "btnContact": "Hubungi Saya Sekarang"
+  },
+  "map": {
+    "title": "Lokasi Kami",
+    "address": "Jl. Babadan, RT.01/RW.17, Bangunmulyo, Girikerto, Kec. Turi, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55551",
+    "btnRoute": "Panduan Rute Google Maps"
+  },
+  "testimonials": {
+    "title1": "Dokumentasi Perjalanan",
+    "title2": "Spesial",
+    "desc": "Berbagai dokumentasi dan testimoni pelanggan yang telah membuktikan kualitas pelayanan kami."
+  },
+  "blog": {
+    "subtitle": "Kegiatan & Tips",
+    "title": "Kegiatan Harian & Tips dari Handoko Rentcar",
+    "viewAll": "Lihat Semua Artikel",
+    "readMore": "BACA SELENGKAPNYA »"
+  },
+  "footer": {
+    "desc": "Sewa mobil Jogja terpercaya dengan layanan profesional dan armada berkualitas.",
+    "servicesTitle": "Tautan Cepat",
+    "service1": "Beranda",
+    "service2": "Armada Kami",
+    "service3": "Tentang Kami",
+    "contactTitle": "Hubungi Kami",
+    "copyright": "Handoko Rentcar. Seluruh Hak Cipta Dilindungi. Created with ❤"
+  },
+  "articlePage": {
+    "heroTitle1": "Panduan &",
+    "heroTitle2": "Tips Wisata Jogja",
+    "heroDesc": "Jelajahi berbagai artikel terbaru dari kami yang akan membantu memaksimalkan waktu liburan Anda di Yogyakarta.",
+    "btnRead": "Baca Selengkapnya",
+    "notFound": "Artikel Tidak Ditemukan",
+    "ctaTitle": "Siap Mengeksplorasi Keajaiban Jogja?",
+    "ctaDesc": "Dapatkan armada terbaru dan harga spesial promo dengan menghubungi konsultan transportasi Handoko Rentcar sekarang juga.",
+    "btnConsult": "Konsultasi Sewa Mobil Sekarang",
+    "waMsg": "Halo Mas Handoko, saya tertarik dengan informasi di artikel"
+  }
+}

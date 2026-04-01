@@ -1,30 +1,43 @@
 import Image from 'next/image';
 import styles from './Reasons.module.css';
 
-export default function Reasons() {
+export default function Reasons({ dict }: { dict: any }) {
   return (
-    <section className={styles.section} id="reasons">
-      <div className={styles.shape}>
-        <div className={styles.circle}></div>
-      </div>
+    <section id="reasons" className={styles.section}>
+      <div className={styles.shape}></div>
+      <div className={styles.circle}></div>
       <div className={styles.container}>
         <div className={styles.cardsWrapper}>
           <div className={styles.card}>
             <div className={styles.imgWrapper}>
-              <Image src="/image/cars/all-cars-variants.png" alt="Kualitas Terbaik" fill style={{ objectFit: 'cover' }} />
+              <Image
+                src="/image/cars/all-cars-variants.png"
+                alt={dict.qualityTitle}
+                fill
+                style={{ objectFit: 'cover' }}
+                sizes="(max-width: 968px) 100vw, 350px"
+                loading="lazy"
+              />
             </div>
             <div className={styles.content}>
-              <h3 className={styles.title}>Kualitas Terbaik</h3>
-              <p className={styles.desc}>Kami memahami pentingnya nilai uang Anda. Oleh karena itu, kami menawarkan harga yang kompetitif dan transparan.</p>
+              <h3 className={styles.title}>{dict.qualityTitle}</h3>
+              <p className={styles.desc}>{dict.qualityDesc}</p>
             </div>
           </div>
           <div className={styles.card}>
             <div className={styles.imgWrapper}>
-              <Image src="/image/testimoni/tour-testimonial.jpeg" alt="Kepuasan Pelanggan" fill style={{ objectFit: 'cover' }} />
+              <Image
+                src="/image/testimoni/tour-testimonial.jpeg"
+                alt={dict.satisfactionTitle}
+                fill
+                style={{ objectFit: 'cover' }}
+                sizes="(max-width: 968px) 100vw, 350px"
+                loading="lazy"
+              />
             </div>
             <div className={styles.content}>
-              <h3 className={styles.title}>Kepuasan Pelanggan</h3>
-              <p className={styles.desc}>Kami menyediakan berbagai pilihan kendaraan untuk memenuhi kebutuhan perjalanan Anda.</p>
+              <h3 className={styles.title}>{dict.satisfactionTitle}</h3>
+              <p className={styles.desc}>{dict.satisfactionDesc}</p>
             </div>
           </div>
         </div>

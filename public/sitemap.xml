@@ -1,50 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Halaman Utama -->
+  <!-- HOMEPAGE -->
   <url>
-    <loc>https://handokorentcar.com/</loc>
+    <loc>https://handokorentcar.com/en</loc>
+    <lastmod>2026-04-01T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://handokorentcar.com/id</loc>
     <lastmod>2026-04-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- Halaman Indeks Artikel -->
+  <!-- ARTIKEL INDEX -->
   <url>
-    <loc>https://handokorentcar.com/artikel</loc>
-    <lastmod>2026-04-01T00:00:00+00:00</lastmod>
+    <loc>https://handokorentcar.com/en/artikel</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://handokorentcar.com/id/artikel</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 
-  <!-- Artikel 1: Update Harga -->
+  <!-- ARTIKEL: UPDATE HARGA -->
   <url>
-    <loc>https://handokorentcar.com/artikel/update-harga-sewa-mobil-jogja</loc>
-    <lastmod>2026-04-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://handokorentcar.com/en/artikel/update-harga-sewa-mobil-jogja</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://handokorentcar.com/id/artikel/update-harga-sewa-mobil-jogja</loc>
     <priority>0.7</priority>
   </url>
 
-  <!-- Artikel 2: Dekat Stasiun -->
+  <!-- ARTIKEL: DEKAT STASIUN -->
   <url>
-    <loc>https://handokorentcar.com/artikel/sewa-mobil-jogja-dekat-stasiun</loc>
-    <lastmod>2026-04-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://handokorentcar.com/en/artikel/sewa-mobil-jogja-dekat-stasiun</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://handokorentcar.com/id/artikel/sewa-mobil-jogja-dekat-stasiun</loc>
     <priority>0.7</priority>
   </url>
 
-  <!-- Artikel 3: Gunung Kidul & Hiace -->
+  <!-- ARTIKEL: GUNUNG KIDUL & HIACE -->
   <url>
-    <loc>https://handokorentcar.com/artikel/wisata-hits-gunung-kidul-hiace</loc>
-    <lastmod>2026-04-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://handokorentcar.com/en/artikel/wisata-hits-gunung-kidul-hiace</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://handokorentcar.com/id/artikel/wisata-hits-gunung-kidul-hiace</loc>
     <priority>0.7</priority>
   </url>
 
-  <!-- Artikel 4: Tips Hemat -->
+  <!-- ARTIKEL: TIPS HEMAT -->
   <url>
-    <loc>https://handokorentcar.com/artikel/tips-wisata-hemat-di-jogja</loc>
-    <lastmod>2026-04-01T00:00:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://handokorentcar.com/en/artikel/tips-wisata-hemat-di-jogja</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://handokorentcar.com/id/artikel/tips-wisata-hemat-di-jogja</loc>
     <priority>0.7</priority>
   </url>
 </urlset>

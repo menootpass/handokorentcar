@@ -1,46 +1,54 @@
 import Image from 'next/image';
-import { FaCarSide, FaCalendarCheck } from 'react-icons/fa';
+import Link from 'next/link';
 import styles from './Hero.module.css';
 
-export default function Hero() {
+export default function Hero({ dict, lang }: { dict: any; lang: string }) {
   return (
     <section id="home" className={styles.hero}>
       <Image
         src="/image/hero_background.png"
-        alt="Hero Background"
+        alt="Handoko Rentcar - Sewa Mobil Jogja"
         fill
         className={styles.bgImage}
         priority
+        sizes="100vw"
       />
+      <div className={styles.overlay}></div>
       <div className="container">
         <div className={styles.content}>
           <h1 className={`${styles.title} animate-fade-in-up`}>
-            Handoko Rentcar <span> & Tour Guide</span>
+            {dict.title1} <span>{dict.title2}</span>
           </h1>
           <p className={`${styles.description} animate-fade-in-up`} style={{ animationDelay: '0.2s' }}>
-            Kami menyediakan pilihan mobil dan armada berkualitas dengan harga terjangkau, memberikan Anda pengalaman perjalanan yang nyaman, aman, dan memukau bersama Handoko Rentcar.
+            {dict.desc}
           </p>
           <div className={`${styles.actions} animate-fade-in-up`} style={{ animationDelay: '0.4s' }}>
-            <a href="#vehicles" className="btn btn-primary" style={{ padding: '16px 32px', fontSize: '1.1rem' }}>
-              <FaCarSide size={20} /> Lihat Kendaraan
-            </a>
-            <a href="https://wa.me/6285743422700" target="_blank" rel="noopener noreferrer" className="btn btn-outline" style={{ padding: '16px 32px', fontSize: '1.1rem', color: 'white', borderColor: 'white' }}>
-              <FaCalendarCheck size={20} /> Booking Sekarang
+            <Link href={`/${lang}/#vehicles`} className="btn btn-primary">
+              {dict.btnRent}
+            </Link>
+            <a
+              href="https://wa.me/6285743422700"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-outline"
+              style={{ color: 'white', borderColor: 'white' }}
+            >
+              {dict.btnConsult}
             </a>
           </div>
 
           <div className={`${styles.stats} animate-fade-in-up`} style={{ animationDelay: '0.6s' }}>
             <div className={styles.statItem}>
               <h4>10+</h4>
-              <p>Kendaraan Pilihan</p>
+              <p>{dict.stat1}</p>
             </div>
             <div className={styles.statItem}>
               <h4>99%</h4>
-              <p>Pelanggan Puas</p>
+              <p>{dict.stat2}</p>
             </div>
             <div className={styles.statItem}>
               <h4>24/7</h4>
-              <p>Layanan Dukungan</p>
+              <p>{dict.stat3}</p>
             </div>
           </div>
         </div>
