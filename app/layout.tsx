@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Sewa Mobil Jogja Terbaik dan Terpercaya - Handoko Rentcar & Tour Guide',
-    description: 'Solusi sewa mobil jogja nomor 1. Lepas kunci & dengan driver handal pariwisata.',
+    description: 'Sewa mobil Jogja lepas kunci atau dengan driver di Handoko Rentcar. Harga murah, lengkap, unit bersih & terawat. Siap untuk wisata & bisnis. Booking sekarang!',
     url: 'https://handokorentcar.com',
     siteName: 'Sewa Mobil Jogja - Handoko Rentcar & Tour Guide',
     locale: 'id_ID',
@@ -47,7 +47,7 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     "name": "Handoko Rentcar",
-    "description": "Handoko Rentcar Jogja \u2013 Jasa sewa mobil lepas kunci atau dengan driver terpercaya di Yogyakarta. Tersedia berbagai pilihan unit (Avanza, Innova, Innova Reborn, Pajero, Fortuner, Mobilio, Hiace, Brio, Elf Long, Alphard) untuk lepas kunci atau dengan supir. Armada bersih, harga kompetitif mulai dari Rp. 350.000 per hari., siap melayani wisata & bisnis Anda. Booking via WhatsApp sekarang!",
+    "description": "Sewa mobil Jogja lepas kunci atau dengan driver di Handoko Rentcar. Harga murah, lengkap, unit bersih & terawat. Siap untuk wisata & bisnis. Booking sekarang!",
     "url": "https://handokorentcar.com",
     "logo": "https://handokorentcar.com/logo.png",
     "telephone": "+62 857-4342-2700",
