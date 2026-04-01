@@ -34,10 +34,11 @@ export default function Navbar() {
         </button>
 
         <div className={`${styles.links} ${isOpen ? styles.open : ''}`}>
-          <Link href="#home" className={styles.link} onClick={closeMenu}>Home</Link>
-          <Link href="#reasons" className={styles.link} onClick={closeMenu}>Keunggulan</Link>
-          <Link href="#vehicles" className={styles.link} onClick={closeMenu}>Armada</Link>
-          <Link href="#about" className={styles.link} onClick={closeMenu}>Tentang Kami</Link>
+          <Link href="/#home" className={styles.link} onClick={closeMenu}>Home</Link>
+          <Link href="/#reasons" className={styles.link} onClick={closeMenu}>Keunggulan</Link>
+          <Link href="/#vehicles" className={styles.link} onClick={closeMenu}>Armada</Link>
+          <Link href="/#about" className={styles.link} onClick={closeMenu}>Tentang Kami</Link>
+          <Link href="/artikel" className={styles.link} onClick={closeMenu}>Artikel</Link>
           <a href="https://wa.me/6285743422700" target="_blank" rel="noopener noreferrer" className="btn btn-primary" style={{ padding: '10px 24px' }}>
             <FaWhatsapp size={20} /> Hubungi Kami
           </a>

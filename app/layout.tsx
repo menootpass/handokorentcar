@@ -7,7 +7,7 @@ const outfit = Outfit({ subsets: ['latin'], variable: '--font-sans' });
 export const metadata: Metadata = {
   title: 'Sewa Mobil Jogja Terbaik dan Terpercaya - Handoko Rentcar & Tour Guide',
   description: 'Sewa mobil jogja berkualitas lepas kunci atau dengan driver dengan harga terjangkau di Handoko Rentcar & Tour Guide. Harga murah, armada bersih, layani wisata keluarga hingga keperluan bisnis (Avanza, Hiace, Brio).',
-  keywords: ['sewa mobil jogja', 'rental mobil jogja', 'sewa mobil jogja murah', 'sewa mobil jogja lepas kunci', 'sewa mobil jogja dengan driver', 'mobil jogja harian', 'pariwisata jogja', 'sewa mobil jogja bandara', 'rental mobil sleman'],
+  keywords: ['sewa mobil jogja', 'rental mobil jogja', 'sewa mobil jogja murah', 'sewa mobil jogja lepas kunci', 'sewa mobil jogja dengan driver', 'mobil jogja harian', 'pariwisata jogja', 'sewa mobil jogja bandara', 'rental mobil sleman', 'handoko rentcar'],
   alternates: {
     canonical: 'https://handokorentcar.com',
   },
@@ -15,10 +15,27 @@ export const metadata: Metadata = {
     title: 'Sewa Mobil Jogja Terbaik dan Terpercaya - Handoko Rentcar & Tour Guide',
     description: 'Solusi sewa mobil jogja nomor 1. Lepas kunci & dengan driver handal pariwisata.',
     url: 'https://handokorentcar.com',
-    siteName: 'Handoko Rentcar & Tour Guide',
+    siteName: 'Sewa Mobil Jogja - Handoko Rentcar & Tour Guide',
     locale: 'id_ID',
     type: 'website',
-  }
+    images: [
+      {
+        url: "/og-image.jpg", // Foto mobil atau kantor untuk preview link
+        width: 1200,
+        height: 630,
+      },
+    ],
+  },
+  // BAGIAN LOGO (FAVICON)
+  icons: {
+    icon: [
+      { url: "/favicon.ico" }, // Pastikan file ini ada di folder /public
+      { url: "/logo.png", type: "image/png" }, // Versi PNG untuk kualitas lebih baik
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png" }, // Untuk pengguna iPhone yang save web ke home screen
+    ],
+  },
 };
 
 export default function RootLayout({
@@ -35,7 +52,7 @@ export default function RootLayout({
     "logo": "https://handokorentcar.com/logo.png",
     "telephone": "+62 857-4342-2700",
     "email": "handoko.dwi95273@gmail.com",
-    "priceRange": "$15",
+    "priceRange": "Rp. 300.000 - Rp. 3.500.000",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Jl. Babadan, RT.01/RW.17, Bangunmulyo, Girikerto, Kec. Turi",
