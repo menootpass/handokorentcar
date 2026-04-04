@@ -50,7 +50,7 @@ export const vehicles: { en: Vehicle[]; id: Vehicle[] } = {
       id: 5,
       name: 'Elf Long',
       price: 'Rp 1.200.000',
-      image: '/image/cars/elf-long.png',
+      image: '/image/cars/elf-long.jpeg',
       passengers: '15-19 Kursi',
       transmission: 'Manual'
     },
@@ -58,7 +58,7 @@ export const vehicles: { en: Vehicle[]; id: Vehicle[] } = {
       id: 3,
       name: 'Toyota HIACE',
       price: 'Rp 1.200.000',
-      image: '/image/cars/toyota_hiace.png',
+      image: '/image/cars/toyota-hiace.png',
       passengers: '15 Kursi',
       transmission: 'Manual'
     },
@@ -82,7 +82,7 @@ export const vehicles: { en: Vehicle[]; id: Vehicle[] } = {
       id: 4,
       name: 'Bus Medium & Big Bus',
       price: 'Rp 1.800.000',
-      image: '/image/cars/all-cars-variants.png',
+      image: '/image/cars/medium-bus.jpeg',
       passengers: '30-50 Kursi',
       transmission: 'Manual'
     },
@@ -90,7 +90,7 @@ export const vehicles: { en: Vehicle[]; id: Vehicle[] } = {
       id: 10,
       name: 'Alphard',
       price: 'Rp 3.300.000',
-      image: '/image/cars/alphard.png',
+      image: '/image/cars/alphard.jpeg',
       passengers: '7 Kursi',
       transmission: 'Auto'
     }
@@ -136,7 +136,7 @@ export const vehicles: { en: Vehicle[]; id: Vehicle[] } = {
       id: 5,
       name: 'Elf Long',
       price: 'IDR 1,200,000',
-      image: '/image/cars/elf-long.png',
+      image: '/image/cars/elf-long.jpeg',
       passengers: '15-19 Seats',
       transmission: 'Manual'
     },
@@ -144,7 +144,7 @@ export const vehicles: { en: Vehicle[]; id: Vehicle[] } = {
       id: 3,
       name: 'Toyota HIACE',
       price: 'IDR 1,200,000',
-      image: '/image/cars/toyota_hiace.png',
+      image: '/image/cars/toyota-hiace.png',
       passengers: '15 Seats',
       transmission: 'Manual'
     },
@@ -168,7 +168,7 @@ export const vehicles: { en: Vehicle[]; id: Vehicle[] } = {
       id: 4,
       name: 'Bus Medium & Big Bus',
       price: 'IDR 1,800,000',
-      image: '/image/cars/all-cars-variants.png',
+      image: '/image/cars/medium-bus.jpeg',
       passengers: '30-50 Seats',
       transmission: 'Manual'
     },
@@ -176,7 +176,7 @@ export const vehicles: { en: Vehicle[]; id: Vehicle[] } = {
       id: 10,
       name: 'Alphard',
       price: 'IDR 3,300,000',
-      image: '/image/cars/alphard.png',
+      image: '/image/cars/alphard.jpeg',
       passengers: '7 Seats',
       transmission: 'Auto'
     }

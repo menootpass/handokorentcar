@@ -3,7 +3,7 @@ import Link from 'next/link';
 import styles from './BlogSection.module.css';
 import { articles } from '../data/articles';
 
-export default function BlogSection({ dict, lang }: { dict: any, lang: 'en'|'id' }) {
+export default function BlogSection({ dict, lang }: { dict: any, lang: 'en' | 'id' }) {
   const articleList = articles[lang] || articles['en'];
   const displayArticles = articleList.slice(0, 5);
   const featuredArticle = displayArticles[0];
@@ -23,10 +23,10 @@ export default function BlogSection({ dict, lang }: { dict: any, lang: 'en'|'id'
           <div className={styles.featuredCard}>
             <div className={styles.featuredInner}>
               <Link href={`/${lang}/artikel/${featuredArticle.slug}`} className={styles.featuredImgWrapper}>
-                <Image 
-                  src={featuredArticle.coverImage} 
-                  alt={featuredArticle.title} 
-                  fill 
+                <Image
+                  src={featuredArticle.coverImage}
+                  alt={featuredArticle.title}
+                  fill
                   sizes="(max-width: 768px) 100vw, 50vw"
                   className={styles.img}
                 />
@@ -46,10 +46,10 @@ export default function BlogSection({ dict, lang }: { dict: any, lang: 'en'|'id'
             {regularArticles.map((article) => (
               <article key={article.id} className={styles.regularCard}>
                 <Link href={`/${lang}/artikel/${article.slug}`} className={styles.regularImgWrapper}>
-                  <Image 
-                    src={article.coverImage} 
-                    alt={article.title} 
-                    fill 
+                  <Image
+                    src={article.coverImage}
+                    alt={article.title}
+                    fill
                     sizes="(max-width: 768px) 100vw, 25vw"
                     className={styles.img}
                   />
