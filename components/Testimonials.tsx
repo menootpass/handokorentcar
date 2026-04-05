@@ -19,9 +19,12 @@ const testimonials = [
   { id: 15, image: '/image/testimoni/tample-testimonial.jpeg' },
   { id: 16, image: '/image/testimoni/touring-testimonial.jpeg' },
   { id: 17, image: '/image/testimoni/yogyakarta-tour-testimonial.jpeg' },
+  { id: 18, image: '/image/testimoni/family-tour.mp4' },
+  { id: 19, image: '/image/testimoni/testimonial.mp4' },
 ];
 
 export default function Testimonials({ dict }: { dict: any }) {
+  const isVideo = (path: string) => typeof path === 'string' && path.toLowerCase().endsWith('.mp4');
   return (
     <section className={styles.section}>
       <div className="container">
@@ -36,14 +39,35 @@ export default function Testimonials({ dict }: { dict: any }) {
         <div className={styles.scrollTrack}>
           {testimonials.map((item) => (
             <div key={item.id} className={styles.imgCard}>
-              <Image
-                src={item.image}
-                alt="Customer Testimonial"
-                fill
-                className={styles.img}
-                sizes="380px"
-                loading="lazy"
-              />
+              {isVideo(item.image) ? (
+                /* Render tag video jika file adalah .mp4 */
+                <video
+                  src={item.image}
+                  className={styles.img || "w-full h-full object-cover"}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  style={{
+                    objectFit: 'cover',
+                    width: '100%',
+                    height: '100%'
+                  }}
+                />
+              ) : (
+                /* Render tag img standar agar kompatibel dengan pratinjau ini */
+                <img
+                  src={item.image}
+                  alt="Customer Testimonial"
+                  className={styles.img || "w-full h-full object-cover"}
+                  loading="lazy"
+                  style={{
+                    objectFit: 'cover',
+                    width: '100%',
+                    height: '100%'
+                  }}
+                />
+              )}
             </div>
           ))}
         </div>
