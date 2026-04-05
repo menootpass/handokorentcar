@@ -42,7 +42,7 @@ export default function Navbar({ dict, lang }: { dict: any, lang: string }) {
     <nav className={styles.navbar}>
       <div className={`container ${styles.container}`}>
         <Link href={`/${lang}`} className={styles.logo} onClick={closeMenu}>
-          <img src="/image/logo.png" alt="Handoko Rentcar Logo" style={{ height: '50px', width: 'auto', display: 'block' }} />
+          <img src="/image/logo.png" alt="Handoko Rentcar Logo" style={{ height: '100px', width: 'auto', display: 'block' }} />
         </Link>
 
         <button className={styles.burger} onClick={toggleMenu} aria-label="Toggle Navigation">
