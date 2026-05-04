@@ -9,6 +9,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   const isEn = lang === 'en';
 
   return {
+    metadataBase: new URL('https://handokorentcar.com'),
     title: isEn ? 'Best Yogyakarta Car Rental - Handoko Rentcar & Tour Guide' : 'Sewa Mobil Jogja Terbaik dan Terpercaya - Handoko Rentcar & Tour Guide',
     description: isEn ? 'Rent a car in Jogja with or without a driver at Handoko Rentcar. Cheap, clean, and well-maintained units. Book now!' : 'Sewa mobil Jogja lepas kunci atau dengan driver di Handoko Rentcar. Harga murah, lengkap, unit bersih & terawat. Siap untuk wisata & bisnis. Booking sekarang!',
     keywords: isEn ? ['rent car jogja', 'yogyakarta car rental', 'cheap car rental jogja', 'yogyakarta tour', 'handoko rentcar', 'self drive jogja'] : ['sewa mobil jogja', 'rental mobil jogja', 'sewa mobil jogja murah', 'sewa mobil jogja lepas kunci', 'sewa mobil jogja dengan driver', 'mobil jogja harian', 'pariwisata jogja', 'sewa mobil jogja bandara', 'rental mobil sleman', 'handoko rentcar'],

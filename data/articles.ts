@@ -88,12 +88,12 @@ export const articles: ArticlesDict = {
       title: "7 Rekomendasi Wisata Hits Gunung Kidul yang Wajib Dikunjungi dengan Sewa Hiace Jogja",
       excerpt: "Rombongan besar mencari eksotisme pasir putih dan tebing Gunung Kidul? Temukan spot wisata viral terbaik dan sewa Hiace besar dari Handoko Rentcar.",
       date: "2026-04-05",
-      coverImage: "/image/cars/toyota_hiace.png",
+      coverImage: "/image/cars/toyota-hiace.png",
       content: `
         <h2>Gelombang Keindahan Ekstrem Gunung Kidul</h2>
         <p>Tahun 2026 menahbiskan <strong>Gunung Kidul</strong> sebagai ibu kota keindahan alam bahari estetik di Jawa. Bila Anda datang dengan formasi armada "Squad" (9 hingga 15 orang), pesona ini patut dicicipi sekaligus! Melibatkan armada <strong>Toyota Hiace Commuter</strong> atau tipe sejenis dari silsilah garasi <strong>Sewa Hiace Handoko Rentcar Jogja</strong> menggaransi 100% senyum simpul keluarga sepanjang mendaki jalur tenggara.</p>
         
-        <img src="/image/cars/toyota_hiace.png" alt="Sewa Hiace Wisata Gunung Kidul" class="article-img" />
+        <img src="/image/cars/toyota-hiace.png" alt="Sewa Hiace Wisata Gunung Kidul" class="article-img" />
 
         <h3>Mengapa Rombongan Harus Menggunakan Hiace/Elf Long?</h3>
         <ol>
@@ -201,12 +201,12 @@ export const articles: ArticlesDict = {
       title: "7 Recommended Viral Gunung Kidul Attractions to Visit with Jogja Hiace Rental",
       excerpt: "Large group seeking the exoticism of white sands and Gunung Kidul cliffs? Find the best viral tourist spots and rent a big Hiace from Handoko Rentcar.",
       date: "2026-04-05",
-      coverImage: "/image/cars/toyota_hiace.png",
+      coverImage: "/image/cars/toyota-hiace.png",
       content: `
         <h2>The Extreme Beauty Wave of Gunung Kidul</h2>
         <p>The year 2026 crowns <strong>Gunung Kidul</strong> as the capital of aesthetic marine natural beauty in Java. If you come with a full "Squad" fleet formation (9 to 15 people), this charm is worth tasting all at once! Involving a <strong>Toyota Hiace Commuter</strong> or similar types from the garage lineage of <strong>Hiace Rental Handoko Rentcar Jogja</strong> guarantees 100% subtle family smiles along the southeast route climbing.</p>
         
-        <img src="/image/cars/toyota_hiace.png" alt="Hiace Rental Gunung Kidul Tour" class="article-img" />
+        <img src="/image/cars/toyota-hiace.png" alt="Hiace Rental Gunung Kidul Tour" class="article-img" />
 
         <h3>Why Should Groups Use Hiace/Elf Long?</h3>
         <ol>
